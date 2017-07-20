@@ -31,6 +31,9 @@ java -cp .:opencsv-3.9.jar:mysql-connector-java-5.1.42-bin.jar CSVIntoSQL
 ### Step Four:
 You're done, the program should be able to run fine or at least explain itself to you if things go awry.
 
+## Notes:
+The program itself is not very smart. If you try to upload a csv file that is not formatted to its liking, it will likely spit out some errors. To avoid this problem, ensure that your csv file only contains comma seperated values and nothing else. The first row of values will be used as column names, with every subsequent row being treated as data. Including a header in your csv file will gum up the works. 
+
 
 
 
