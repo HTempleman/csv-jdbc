@@ -9,11 +9,11 @@ to the one that I have provided. Besides that, a couple snippets of code may nee
 ## Usage:
 Here I'll assume limited knowledge of java and break down the usage of this simple program into a series of steps:
 
-# Step One:
+### Step One:
 Ensure that you have the Java Development Kit (JDK) installed. 
 You can access a download [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-# Step Two:
+### Step Two:
 These instructions are written with Unix in mind. Using a command line interface, e.g. *Terminal* on Mac or *xterm* on Linux, 
 navigate to the directory containing the CSVIntoSQL program files. Issue the following command:
 ```
@@ -22,12 +22,13 @@ javac -cp .:opencsv-3.9.jar CSVIntoSQL.java
 ```
 If using command prompt on Windows, you will want to replace the colons *:* with semicolons *;*.
 
-# Step Three:
+### Step Three:
 Run the java program:
 ```
 java -cp .:opencsv-3.9.jar:mysql-connector-java-5.1.42-bin.jar CSVIntoSQL
+```
 
-# Step Four:
+### Step Four:
 You're done, the program should be able to run fine or at least explain itself to you if things go awry.
 
 
