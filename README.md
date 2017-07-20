@@ -10,7 +10,7 @@ to the one that I have provided. Besides that, a couple snippets of code may nee
 Here I'll assume limited knowledge of java and break down the usage of this simple program into a series of steps:
 
 ### Step One:
-Ensure that you have the Java Development Kit (JDK) installed. 
+Ensure that you have the Java Development Kit (JDK) installed and working. 
 You can access a download [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
 ### Step Two:
