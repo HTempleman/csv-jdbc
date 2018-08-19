@@ -1,6 +1,6 @@
-//The following script is for uploading data from a csv provided by the user
-//into a remote MySQL database. It is a simple program, so try not to confuse it
-//too much ya hear!
+/* Java function set Created by Hunter Templeman. Change extension to '.java' and open in the Atom text editor for improved readability. */
+
+/* The following script is for uploading data from a csv file provided by the user into a remote MySQL database. */
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -20,9 +20,9 @@ public class CSVIntoSQL {
     public static void main(String[] args) {
 
         //Declare basic objects that will be needed.
-        String databaseURL = "jdbc:mysql://159.203.74.78:3306/javaexample?useSSL=false";
+        String databaseURL = "jdbc:mysql://insert_server_IP/useSSL=false";
         String user = "testguest";
-        String password = "Chamfer0764!Gabloo";
+        String password = "insert_password";
         Connection conn = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
